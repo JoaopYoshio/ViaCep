@@ -22,19 +22,23 @@ form{
     width: 300px;
     margin:80px auto; 
 }
+
 input{
     border: solid black 0.5px;
     width: 100%;
-    padding: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
     border-radius: 3px;
     color: black;
 }
 #button{
     width: 100%;
     padding: 10px;
-    margin-top: 5px;
+    margin-top: 10px;
+    border: none;
     border-radius: 3px;
-    background-color: #2196F3;
+    background:linear-gradient(to right, #0D47A1,#3D5AFE,#2196F3);
     color: white;
     cursor: pointer;
 }
